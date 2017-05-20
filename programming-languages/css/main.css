@@ -1,0 +1,105 @@
+* {
+}
+
+body {
+	/*margin: 0;*/
+	background-color: coral;
+}
+
+header {
+ 	text-align: center;
+	padding: 20px;
+	height: auto;
+	background-color: rgba(2, 255, 0, 0.83); 
+	color: white;
+}
+
+h1 {
+	margin: auto;
+/* 	background-color: #f2f3f2; */
+/* 	border: lightgreen 10px solid; */
+/* 	border-radius: 30px; */
+	padding: 10px 10px;
+}
+
+button {
+	background-color: lightgreen;
+	color: black;
+}
+
+input[type='submit'] {
+	background-color: lightgreen;
+	color: black;
+}
+
+dl {
+	background-color: teal;
+}
+
+.container {
+	margin: auto;
+	padding: 20px;
+	/*width: 600px;*/
+	width: 90%;
+	color: #f9f3f3;
+}
+
+a {
+	font-weight: bolder;
+	
+}
+
+.hidden {
+	display: none;
+}
+
+.left {
+	float: left;
+}
+
+.stack-image {
+	background: url('../images/books-icon.jpg') no-repeat center center;
+	width: 200px;
+	height: 200px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin-right: 1em;
+	border-radius: 5px;
+}
+
+.intro {
+	margin-bottom: 1em;
+}
+
+.stack {
+	clear: both;
+}
+
+.inspiration { 
+	/*margin-left: 3em;*/
+	height: 300px;
+}
+
+.post_count img {
+	height: 200px;
+}
+
+.result {
+	text-align: center;
+	border: 1px solid black;
+	padding: 5px;
+	margin: auto;
+	/*max-width: 22%;*/
+	overflow: auto;
+}
+
+.error {
+	background-color: #F78181;
+	padding: 1em;
+}
+
+.search-results {
+	text-align:center;
+}
